@@ -1,0 +1,8 @@
+*.class
+build/
+.gradle/
+.gradle
+
+*.jar
+*.aar
+*.war

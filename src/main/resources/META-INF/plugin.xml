@@ -1,0 +1,25 @@
+<idea-plugin>
+    <id>Kubernetes Explorer</id>
+    <name>Kubernetes Explorer</name>
+    <vendor email="dushmanthab99@gmail.com" />
+
+    <description>Explore Kubernetes cluster. Nodes, Deployments, pods etc</description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Kubernetes Explorer" secondary="true" anchor="right" icon="AllIcons.Actions.DiagramDiff"
+                 doNotActivateOnStart="true"  factoryClass="org.dush.intellij.plugin.k8.ui.MainWindowInitializer"/>
+
+    </extensions>
+    <extensions defaultExtensionNs="com.intellij">
+        <notificationGroup id="kubernetes-explorer"
+                           displayType="BALLOON"/>
+    </extensions>
+
+    <actions>
+        <!-- Add your actions here -->
+    </actions>
+</idea-plugin>

@@ -1,0 +1,29 @@
+plugins {
+    id 'org.jetbrains.intellij' version '1.8.1'
+}
+repositories {
+    mavenCentral()
+}
+group 'org.dush.intellj.plugin'
+version '1.0-SNAPSHOT'
+
+// See https://github.com/JetBrains/gradle-intellij-plugin/
+intellij {
+    version = '2021.3.3'
+}
+patchPluginXml {
+    changeNotes = """
+      Add change notes here.<br>
+      <em>most HTML tags may be used</em>"""
+}
+
+dependencies {
+    implementation('io.kubernetes:client-java-extended:16.0.0') {
+        exclude group: 'org.slf4j', module: 'slf4j-api'
+    }
+    testImplementation "org.mockito:mockito-core:3.+"
+
+    implementation("com.twelvemonkeys.imageio:imageio-batik:3.8.3")
+    implementation("batik:batik-transcoder:1.6-1")
+
+}
