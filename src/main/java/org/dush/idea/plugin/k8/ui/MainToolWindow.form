@@ -36,12 +36,13 @@
             <constraints>
               <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
                 <minimum-size width="27" height="27"/>
-                <preferred-size width="46" height="27"/>
+                <preferred-size width="65" height="27"/>
                 <maximum-size width="27" height="27"/>
               </grid>
             </constraints>
             <properties>
               <text value=""/>
+              <toolTipText value="Refresh"/>
             </properties>
           </component>
           <component id="f0e33" class="javax.swing.JComboBox" binding="comboAuthType">
@@ -51,7 +52,9 @@
                 <preferred-size width="75" height="-1"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <toolTipText value="select configuration type"/>
+            </properties>
           </component>
         </children>
       </grid>

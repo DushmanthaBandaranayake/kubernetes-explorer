@@ -53,6 +53,7 @@ public class RefreshButtonActionHandler
                 {
                     try
                     {
+                        MainToolWindow.getInstance().getLblLog().setText( "" );
                         progressIndicator.setIndeterminate( false );
                         progressIndicator.setFraction( 0.10 );
                         progressIndicator.setText( Constants.PROGRESS_BAR_TITLE );
