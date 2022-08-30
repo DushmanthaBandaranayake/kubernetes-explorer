@@ -1,9 +1,14 @@
-<idea-plugin>
-    <id>Kubernetes Explorer</id>
+<idea-plugin url="https://github.com/DushmanthaBandaranayake/kubernetes-explorer">
+    <id>org.dush.idea.plugin.k8.kubernetesExplorer</id>
     <name>Kubernetes Explorer</name>
     <vendor email="dushmanthab99@gmail.com" />
+    <description>
+        <![CDATA[
+    <p>Explore Kubernetes cluster. Nodes, Deployments, pods</p>
+    <img src="https://github.com/DushmanthaBandaranayake/kubernetes-explorer/blob/master/docs/images/Screenshot.png" alt="screenshot" >
+        ]]>
+    </description>
 
-    <description>Explore Kubernetes cluster. Nodes, Deployments, pods etc</description>
 
     <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
          on how to target different products -->
@@ -11,7 +16,7 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow id="Kubernetes Explorer" secondary="true" anchor="right" icon="AllIcons.Actions.DiagramDiff"
-                 doNotActivateOnStart="true"  factoryClass="org.dush.intellij.plugin.k8.ui.MainWindowInitializer"/>
+                 doNotActivateOnStart="true"  factoryClass="org.dush.idea.plugin.k8.ui.MainWindowInitializer"/>
 
     </extensions>
     <extensions defaultExtensionNs="com.intellij">
