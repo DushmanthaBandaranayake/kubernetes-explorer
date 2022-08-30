@@ -1,7 +1,7 @@
 <idea-plugin url="https://github.com/DushmanthaBandaranayake/kubernetes-explorer">
     <id>org.dush.idea.plugin.k8.kubernetesExplorer</id>
     <name>Kubernetes Explorer</name>
-    <vendor email="dushmanthab99@gmail.com" />
+    <vendor email="dushmanthab99@gmail.com">Dushmantha Bandaranayake</vendor>
     <description>
         <![CDATA[
     <p>Explore Kubernetes cluster. Nodes, Deployments, pods</p>
