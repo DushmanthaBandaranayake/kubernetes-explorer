@@ -1,4 +1,4 @@
-![Screenshot](https://raw.githubusercontent.com/DushmanthaBandaranayake/kubernetes-explorer/master/Icon.svg)
+![Screenshot](https://raw.githubusercontent.com/DushmanthaBandaranayake/kubernetes-explorer/master/docs/images/Icon.svg)
 # Kubernetes Explorer
 ## _IntelliJ Idea plugin for viewing k8 cluster_
 
