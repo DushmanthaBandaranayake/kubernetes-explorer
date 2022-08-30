@@ -6,4 +6,4 @@ viewing k8 cluster.
 
 This project is still in-progress..
 
-![Screenshot](https://github.com/DushmanthaBandaranayake/kubernetes-explorer/blob/master/docs/images/Screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/DushmanthaBandaranayake/kubernetes-explorer/master/demo.gif)

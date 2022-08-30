@@ -5,7 +5,7 @@
     <description>
         <![CDATA[
     <p>Explore Kubernetes cluster. Nodes, Deployments, pods</p>
-    <img src="https://github.com/DushmanthaBandaranayake/kubernetes-explorer/blob/master/docs/images/Screenshot.png" alt="screenshot" >
+    <img src="https://raw.githubusercontent.com/DushmanthaBandaranayake/kubernetes-explorer/master/demo.gif" alt="screenshot" >
         ]]>
     </description>
 
